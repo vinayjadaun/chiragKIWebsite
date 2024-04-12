@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cooking With Kamlawati</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Navigation -->
+    <nav class="navbar background">
+        <ul class="navlist">
+            <li class="logo"><img src="logo.png" alt="logo"></li>
+            <li onclick="scrollToRecipe()"><a href="#recipe">Recipe</a></li>
+            <li onclick="scrollToTop()"><a href="#about">Top 3 Videos</a></li>
+            <li><a href="https://youtube.com/@cookingwithkamlawati3596?si=VoUHrp8c2yzsqmMt">YouTube</a></li>
+            <li ><a href="https://www.instagram.com/cookingwithkamlawati?igsh=Yzl5NnF4czBrbHE0">Instagram</a></li>
+          
+        </ul>
+        <div class="rightnav">
+            <input type="search" name="search" id="search">
+            <button class="btn btn-sm">Search</button>
+            <button class="copybtn"><img src="save.png" alt="Save"></button>
+        </div>
+    </nav>
+
+    <!-- Main Content Section -->
+    <section class="background firstSection">
+        <div class="box-main">
+            <div class="firsthalf">
+                <p class="textbig">Cooking With Kamlawati</p>
+                <button id="night" onclick="darkMode() "><img src="bullb.png" alt="#"></button> 
+            </div>
+        </div>
+    </section>
+
+    <!-- Image Scroller Section -->
+    <div class="image-scroller">
+        <div class="image-container">
+            <img src="khichdi.png" alt="Image 1">
+            <img src="paneer.png" alt="Image 2">
+            <img src="soya.png" alt="Image 3">
+            <img src="dahi.png" alt="Image 4">
+            <img src="alumatar.png" alt="Image 5">
+            <img src="alu.png" alt="Image 6">
+            <!-- Add more images as needed -->
+        </div>
+        <button class="prev-button">&lt;</button>
+        <button class="next-button">&gt;</button>
+    </div>
+        
+    <!-- Right Section for Recipes -->
+    <div class="right">
+        <p>Recipe</p>
+        <div id="recipes">
+            <!-- Recipe content will go here -->
+        </div>
+    </div>
+<!--adding youtube videos-->
+<div class="videos">
+    <p>Top 3 YouTube videos</p>
+    <div class="video-container">
+        <iframe width="300" height="250" src="https://www.youtube.com/embed/eL49kASEKIw"></iframe>
+        <iframe width="300" height="250" src="https://www.youtube.com/embed/AOa9BARWBTE"></iframe>
+        <iframe width="300" height="250" src="https://www.youtube.com/embed/q0qesTKq9cM"></iframe>
+    </div>
+</div>
+
+<div class="direct">
+    <h1>Redirect to our YouTube channel:</h1>
+    <a href="https://youtube.com/@cookingwithkamlawati3596?si=VoUHrp8c2yzsqmMt">Visit our YouTube Channel</a>
+</div>
+
+<div class="insta">
+    <h1>Redirect to our Instagram Page:</h1>
+    <a href="https://www.instagram.com/cookingwithkamlawati?igsh=Yzl5NnF4czBrbHE0">Visit our Instagram Page</a>
+</div>
+
+
+    <script src="script.js"></script>
+</body>
+</html>
